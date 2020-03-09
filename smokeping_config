@@ -1,7 +1,7 @@
 *** General ***
 
 owner    = freesidong
-contact  = root@localhost
+contact  = freesidong@protonmail.ch
 mailhost = my.mail.host
 sendmail = /usr/sbin/sendmail
 # NOTE: do not put the Image Cache below cgi-bin
@@ -11,7 +11,7 @@ imgcache = /var/lib/smokeping/images
 imgurl   = /smokeping/images
 datadir  = /var/lib/smokeping/rrd
 piddir   = /var/run/smokeping
-cgiurl   = http://localhost/smokeping/sm.cgi
+cgiurl   = http://localhost/smokeping
 smokemail = /etc/smokeping/smokemail
 tmail     = /etc/smokeping/tmail
 # specify this to get syslog logging
@@ -19,7 +19,6 @@ syslogfacility = local0
 # each probe is now run in its own process
 # disable this to revert to the old behaviour
 # concurrentprobes = no
-
 
 *** Database ***
 
@@ -98,14 +97,318 @@ title = Network Latency Grapher
 remark = Welcome to the SmokePing website of xxx Company. \
          Here you will learn all about the latency of our network.
 slaves=sidong
+
+
 +china
 menu=china
-title=test
-menu=nan_知乎__
-title=zhihu.com  nan_知乎__
-host=zhihu.com
-rawlog=%Y-%m-%d
-  
-
-
-
+title=china
+  ++zhihu_com
+  menu=知乎
+  title=zhihu.com  知乎
+  host=zhihu.com
+  rawlog=%Y-%m-%d
+  ++www_bilibili_com
+  menu=B站
+  title=www.bilibili.com  B站
+  host=www.bilibili.com
+  rawlog=%Y-%m-%d
+  ++no7103382179_internetworld_cloud
+  menu=魅影
+  title=no7103382179.internetworld.cloud  魅影
+  host=no7103382179.internetworld.cloud
+  rawlog=%Y-%m-%d
++cloud
+menu=cloud
+title=cloud
+  ++34_92_120_249
+  menu=香港_谷歌
+  title=34.92.120.249  香港_谷歌
+  host=34.92.120.249
+  rawlog=%Y-%m-%d
+  ++52_199_24_72
+  menu=日本_亚马逊
+  title=52.199.24.72  日本_亚马逊
+  host=52.199.24.72
+  rawlog=%Y-%m-%d
+  ++13_76_231_233
+  menu=新加坡_微软
+  title=13.76.231.233  新加坡_微软
+  host=13.76.231.233
+  rawlog=%Y-%m-%d
++Vultr
+menu=Vultr
+title=Vultr
+  ++w37_gubo_org
+  menu=日本
+  title=w37.gubo.org  日本
+  host=w37.gubo.org
+  rawlog=%Y-%m-%d
+  ++45_32_137_148
+  menu=美国_圣何塞
+  title=45.32.137.148  美国_圣何塞
+  host=45.32.137.148
+  rawlog=%Y-%m-%d
+  ++45_129_3_57
+  menu=俄罗斯_莫斯科
+  title=45.129.3.57  俄罗斯_莫斯科
+  host=45.129.3.57
+  rawlog=%Y-%m-%d
++linode
+menu=linode
+title=linode
+  ++173_255_214_197
+  menu=美国_费力蒙
+  title=173.255.214.197  美国_费力蒙
+  host=173.255.214.197
+  rawlog=%Y-%m-%d
++ssp
+menu=ssp
+title=ssp
+  ++ssp_cd-hk1_sspsub_pw
+  menu=成都_香港
+  title=ssp.cd-hk1.sspsub.pw  成都_香港
+  host=ssp.cd-hk1.sspsub.pw
+  rawlog=%Y-%m-%d
+  ++ssp_sh-us1_sspsub_pw
+  menu=上海_美国
+  title=ssp.sh-us1.sspsub.pw  上海_美国
+  host=ssp.sh-us1.sspsub.pw
+  rawlog=%Y-%m-%d
+  ++ssp_gz-sg1_sspsub_pw
+  menu=广州_新加坡
+  title=ssp.gz-sg1.sspsub.pw  广州_新加坡
+  host=ssp.gz-sg1.sspsub.pw
+  rawlog=%Y-%m-%d
++Bandwagonhost
+menu=Bandwagonhost
+title=Bandwagonhost
+  ++w55_gubo_org
+  menu=香港_PCCW
+  title=w55.gubo.org  香港_PCCW
+  host=w55.gubo.org
+  rawlog=%Y-%m-%d
+  ++w49_gubo_org
+  menu=美国_洛杉矶_CN2_GT_DC2
+  title=w49.gubo.org  美国_洛杉矶_CN2_GT_DC2
+  host=w49.gubo.org
+  rawlog=%Y-%m-%d
+  ++w56_gubo_org
+  menu=美国_洛杉矶_CN2_GT_DC3
+  title=w56.gubo.org  美国_洛杉矶_CN2_GT_DC3
+  host=w56.gubo.org
+  rawlog=%Y-%m-%d
+  ++w11_gubo_org
+  menu=美国_洛杉矶_CN2_GIA_DC6
+  title=w11.gubo.org  美国_洛杉矶_CN2_GIA_DC6
+  host=w11.gubo.org
+  rawlog=%Y-%m-%d
+  ++w93_gubo_org
+  menu=美国_洛杉矶_CN2_GIA_DC9
+  title=w93.gubo.org  美国_洛杉矶_CN2_GIA_DC9
+  host=w93.gubo.org
+  rawlog=%Y-%m-%d
+  ++w2_gubo_org
+  menu=美国_费力蒙_USCA_FMT
+  title=w2.gubo.org  美国_费力蒙_USCA_FMT
+  host=w2.gubo.org
+  rawlog=%Y-%m-%d
+  ++w99_gubo_org
+  menu=美国_新泽西_US_NJ
+  title=w99.gubo.org  美国_新泽西_US_NJ
+  host=w99.gubo.org
+  rawlog=%Y-%m-%d
+  ++w46_gubo_org
+  menu=美国_洛杉矶_CN2_DC8
+  title=w46.gubo.org  美国_洛杉矶_CN2_DC8
+  host=w46.gubo.org
+  rawlog=%Y-%m-%d
+  ++w104_gubo_org
+  menu=欧洲_阿姆斯特丹
+  title=w104.gubo.org  欧洲_阿姆斯特丹
+  host=w104.gubo.org
+  rawlog=%Y-%m-%d
++BuyVM
+menu=BuyVM
+title=BuyVM
+  ++w5_gubo_org
+  menu=美国_拉斯维加斯
+  title=w5.gubo.org  美国_拉斯维加斯
+  host=w5.gubo.org
+  rawlog=%Y-%m-%d
++CubeCloud
+menu=CubeCloud
+title=CubeCloud
+  ++w70_gubo_org
+  menu=香港
+  title=w70.gubo.org  香港
+  host=w70.gubo.org
+  rawlog=%Y-%m-%d
+  ++w68_gubo_org
+  menu=新加坡
+  title=w68.gubo.org  新加坡
+  host=w68.gubo.org
+  rawlog=%Y-%m-%d
+  ++w67_gubo_org
+  menu=美国_洛杉矶_CN2_GIA
+  title=w67.gubo.org  美国_洛杉矶_CN2_GIA
+  host=w67.gubo.org
+  rawlog=%Y-%m-%d
++DMIT
+menu=DMIT
+title=DMIT
+  ++w100_gubo_org
+  menu=香港
+  title=w100.gubo.org  香港
+  host=w100.gubo.org
+  rawlog=%Y-%m-%d
+  ++dmit-lax-gia_gubo_org
+  menu=美国_洛杉矶_CN2_GIA
+  title=dmit-lax-gia.gubo.org  美国_洛杉矶_CN2_GIA
+  host=dmit-lax-gia.gubo.org
+  rawlog=%Y-%m-%d
++Gigsgigscloud
+menu=Gigsgigscloud
+title=Gigsgigscloud
+  ++w76_gubo_org
+  menu=香港
+  title=w76.gubo.org  香港
+  host=w76.gubo.org
+  rawlog=%Y-%m-%d
+  ++w77_gubo_org
+  menu=美国_洛杉矶_CN2_GIA
+  title=w77.gubo.org  美国_洛杉矶_CN2_GIA
+  host=w77.gubo.org
+  rawlog=%Y-%m-%d
++HKServerSolution
+menu=HKServerSolution
+title=HKServerSolution
+  ++w84_gubo_org
+  menu=美国_洛杉矶
+  title=w84.gubo.org  美国_洛杉矶
+  host=w84.gubo.org
+  rawlog=%Y-%m-%d
+  ++w85_gubo_org
+  menu=美国_洛杉矶_CN2_GIA
+  title=w85.gubo.org  美国_洛杉矶_CN2_GIA
+  host=w85.gubo.org
+  rawlog=%Y-%m-%d
++IMpactVPS
+menu=IMpactVPS
+title=IMpactVPS
+  ++w20_gubo_org
+  menu=美国_达拉斯
+  title=w20.gubo.org  美国_达拉斯
+  host=w20.gubo.org
+  rawlog=%Y-%m-%d
++MoKVM
+menu=MoKVM
+title=MoKVM
+  ++w7_gubo_org
+  menu=澳门
+  title=w7.gubo.org  澳门
+  host=w7.gubo.org
+  rawlog=%Y-%m-%d
++ON9HOST
+menu=ON9HOST
+title=ON9HOST
+  ++w79_gubo_org
+  menu=香港
+  title=w79.gubo.org  香港
+  host=w79.gubo.org
+  rawlog=%Y-%m-%d
++RFCHOST
+menu=RFCHOST
+title=RFCHOST
+  ++w95_gubo_org
+  menu=美国_堪萨斯
+  title=w95.gubo.org  美国_堪萨斯
+  host=w95.gubo.org
+  rawlog=%Y-%m-%d
+  ++w54_gubo_org
+  menu=美国_洛杉矶_CN2_GIA
+  title=w54.gubo.org  美国_洛杉矶_CN2_GIA
+  host=w54.gubo.org
+  rawlog=%Y-%m-%d
+  ++w60_gubo_org
+  menu=美国_洛杉矶_CN2_GT
+  title=w60.gubo.org  美国_洛杉矶_CN2_GT
+  host=w60.gubo.org
+  rawlog=%Y-%m-%d
+  ++w41_gubo_org
+  menu=俄罗斯_伯力
+  title=w41.gubo.org  俄罗斯_伯力
+  host=w41.gubo.org
+  rawlog=%Y-%m-%d
++Ultravps_eu
+menu=Ultravps.eu
+title=Ultravps.eu
+  ++w4_gubo_org
+  menu=美国_洛杉矶
+  title=w4.gubo.org  美国_洛杉矶
+  host=w4.gubo.org
+  rawlog=%Y-%m-%d
++Virmach
+menu=Virmach
+title=Virmach
+  ++w23_gubo_org
+  menu=美国_洛杉矶
+  title=w23.gubo.org  美国_洛杉矶
+  host=w23.gubo.org
+  rawlog=%Y-%m-%d
++VPC_KR
+menu=VPC.KR
+title=VPC.KR
+  ++w43_gubo_org
+  menu=韩国
+  title=w43.gubo.org  韩国
+  host=w43.gubo.org
+  rawlog=%Y-%m-%d
++VPS77
+menu=VPS77
+title=VPS77
+  ++w74_gubo_org
+  menu=美国_洛杉矶
+  title=w74.gubo.org  美国_洛杉矶
+  host=w74.gubo.org
+  rawlog=%Y-%m-%d
+  ++w92_gubo_org
+  menu=美国_洛杉矶_CN2_GIA
+  title=w92.gubo.org  美国_洛杉矶_CN2_GIA
+  host=w92.gubo.org
+  rawlog=%Y-%m-%d
+  ++w81_gubo_org
+  menu=欧洲
+  title=w81.gubo.org  欧洲
+  host=w81.gubo.org
+  rawlog=%Y-%m-%d
++wikihost
+menu=wikihost
+title=wikihost
+  ++w39_gubo_org
+  menu=香港
+  title=w39.gubo.org  香港
+  host=w39.gubo.org
+  rawlog=%Y-%m-%d
+  ++w38_gubo_org
+  menu=香港_沙田
+  title=w38.gubo.org  香港_沙田
+  host=w38.gubo.org
+  rawlog=%Y-%m-%d
+  ++w6_gubo_org
+  menu=美国
+  title=w6.gubo.org  美国
+  host=w6.gubo.org
+  rawlog=%Y-%m-%d
++ZeptoVM
+menu=ZeptoVM
+title=ZeptoVM
+  ++w82_gubo_org
+  menu=美国
+  title=w82.gubo.org  美国
+  host=w82.gubo.org
+  rawlog=%Y-%m-%d
+  ++w80_gubo_org
+  menu=俄罗斯_伯力
+  title=w80.gubo.org  俄罗斯_伯力
+  host=w80.gubo.org
+  rawlog=%Y-%m-%d
