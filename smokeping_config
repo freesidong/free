@@ -1,0 +1,111 @@
+*** General ***
+
+owner    = freesidong
+contact  = root@localhost
+mailhost = my.mail.host
+sendmail = /usr/sbin/sendmail
+# NOTE: do not put the Image Cache below cgi-bin
+# since all files under cgi-bin will be executed ... this is not
+# good for images.
+imgcache = /var/lib/smokeping/images
+imgurl   = /smokeping/images
+datadir  = /var/lib/smokeping/rrd
+piddir   = /var/run/smokeping
+cgiurl   = http://localhost/smokeping/sm.cgi
+smokemail = /etc/smokeping/smokemail
+tmail     = /etc/smokeping/tmail
+# specify this to get syslog logging
+syslogfacility = local0
+# each probe is now run in its own process
+# disable this to revert to the old behaviour
+# concurrentprobes = no
+
+
+*** Database ***
+
+step     = 60
+pings    = 10
+
+# consfn mrhb steps total
+
+AVERAGE  0.5   1  1008
+AVERAGE  0.5  12  4320
+    MIN  0.5  12  4320
+    MAX  0.5  12  4320
+AVERAGE  0.5 144   720
+    MAX  0.5 144   720
+    MIN  0.5 144   720
+
+*** Presentation ***
+charset = utf-8
+
+template = /etc/smokeping/basepage.html
+
+
+
++ overview 
+
+width = 600
+height = 50
+range = 12h
+
++ detail
+
+width = 600
+height = 200
+unison_tolerance = 2
+
+"Last 4 Hours"    4h
+"Last 24 Hours"   24h
+"Last 7 Days"     7d
+"Last 365 Days"   365d
+
+#+ hierarchies
+#++ owner
+#title = Host Owner
+#++ location
+#title = Location
+
+*** Probes ***
+
++ FPing
+
+binary = /usr/sbin/fping
+
+*** Slaves ***
+secrets=/etc/smokeping_secrets
++sidong
+display_name=绵阳移动
+color=ff0000
+
+
+*** Alerts ***
+to = alertee@address.somewhere
+from = smokealert@company.xy
+
++someloss
+type = loss
+# in percent
+pattern = >0%,*12*,>0%,*12*,>0%
+comment = loss 3 times  in a row
+
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of xxx Company. \
+         Here you will learn all about the latency of our network.
+slaves=sidong
++china
+menu=china
+title=test
+menu=nan_知乎__
+title=zhihu.com  nan_知乎__
+host=zhihu.com
+rawlog=%Y-%m-%d
+  
+
+
+
