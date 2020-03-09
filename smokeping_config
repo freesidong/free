@@ -19,7 +19,7 @@ syslogfacility = local0
 # each probe is now run in its own process
 # disable this to revert to the old behaviour
 # concurrentprobes = no
-
+display_name=雅安电信
 *** Database ***
 
 step     = 60
