@@ -73,7 +73,7 @@ unison_tolerance = 2
 binary = /usr/sbin/fping
 
 *** Slaves ***
-secrets=/etc/smokeping_secrets
+secrets=/etc/smokeping/smokeping_secrets
 +sidong
 display_name=绵阳移动
 color=ff0000
