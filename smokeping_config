@@ -19,7 +19,7 @@ syslogfacility = local0
 # each probe is now run in its own process
 # disable this to revert to the old behaviour
 # concurrentprobes = no
-display_name=雅安电信
+display_name=电信雅安
 *** Database ***
 
 step     = 60
@@ -46,7 +46,7 @@ template = /etc/smokeping/basepage.html
 
 width = 600
 height = 50
-range = 12h
+range = 24h
 
 + detail
 
@@ -54,8 +54,8 @@ width = 600
 height = 200
 unison_tolerance = 2
 
-"Last 4 Hours"    4h
 "Last 24 Hours"   24h
+"Last 4 Hours"    4h
 "Last 7 Days"     7d
 "Last 365 Days"   365d
 
@@ -74,7 +74,7 @@ binary = /usr/sbin/fping
 *** Slaves ***
 secrets=/etc/smokeping/smokeping_secrets
 +sidong
-display_name=绵阳移动
+display_name=移动绵阳
 color=ff0000
 
 
