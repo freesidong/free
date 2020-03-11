@@ -73,13 +73,20 @@ binary = /usr/sbin/fping
 
 *** Slaves ***
 secrets=/etc/smokeping/smokeping_secrets
-+sidong
-display_name=移动绵阳
+
++dianxin
+display_name=电信绵阳
 color=ff0000
 
 +liantong
 display_name=联通绵阳
 color=00ff00
+
++sidong
+display_name=移动绵阳
+color=0000ff
+
+
 
 
 *** Alerts ***
@@ -100,7 +107,7 @@ menu = Top
 title = Network Latency Grapher
 remark = Welcome to the SmokePing website of xxx Company. \
          Here you will learn all about the latency of our network.
-slaves=sidong liantong
+slaves=dianxin liantong sidong 
 
 
 +china
