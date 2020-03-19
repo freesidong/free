@@ -335,4 +335,28 @@ title=ZeptoVM
   title=w80.gubo.org  俄罗斯_伯力
   host=w80.gubo.org
   rawlog=%Y-%m-%d
++cheap
+menu=cheap
+title=cheap
+  ++147_135_44_177
+  menu=ZIBA.HOST_俄勒冈
+  title=147.135.44.177  ZIBA.HOST_俄勒冈
+  host=147.135.44.177
+  rawlog=%Y-%m-%d
+  ++195_128_127_79
+  menu=invs.ru_莫斯科
+  title=195.128.127.79  invs.ru_莫斯科
+  host=195.128.127.79
+  rawlog=%Y-%m-%d
+  ++46_17_40_85
+  menu=justhost_莫斯科
+  title=46.17.40.85  justhost_莫斯科
+  host=46.17.40.85
+  rawlog=%Y-%m-%d
+  ++173_82_220_148
+  menu=cloudcore_洛杉矶
+  title=173.82.220.148  cloudcore_洛杉矶
+  host=173.82.220.148
+  rawlog=%Y-%m-%d
+
 
