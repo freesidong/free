@@ -358,5 +358,73 @@ title=cheap
   title=173.82.220.148  cloudcore_洛杉矶
   host=173.82.220.148
   rawlog=%Y-%m-%d
+  ++158_51_96_3
+  menu=XenSpec_洛杉矶
+  title=158.51.96.3  XenSpec_洛杉矶
+  host=158.51.96.3
+  rawlog=%Y-%m-%d
+  ++45_59_126_243
+  menu=Hostodo_拉斯维加斯
+  title=45.59.126.243  Hostodo_拉斯维加斯
+  host=45.59.126.243
+  rawlog=%Y-%m-%d
++aliyun
+menu=aliyun
+title=aliyun
+  ++oss-cn-hongkong_aliyuncs_com
+  menu=香港
+  title=oss-cn-hongkong.aliyuncs.com  香港
+  host=oss-cn-hongkong.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-us-west-1_aliyuncs_com
+  menu=美国西部（硅谷）
+  title=oss-us-west-1.aliyuncs.com  美国西部（硅谷）
+  host=oss-us-west-1.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-us-east-1_aliyuncs_com
+  menu=美国东部（弗吉尼亚）
+  title=oss-us-east-1.aliyuncs.com  美国东部（弗吉尼亚）
+  host=oss-us-east-1.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-ap-southeast-1_aliyuncs_com
+  menu=亚太东南（新加坡）
+  title=oss-ap-southeast-1.aliyuncs.com  亚太东南（新加坡）
+  host=oss-ap-southeast-1.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-ap-southeast-2_aliyuncs_com
+  menu=亚太东南（悉尼）
+  title=oss-ap-southeast-2.aliyuncs.com  亚太东南（悉尼）
+  host=oss-ap-southeast-2.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-ap-southeast-3_aliyuncs_com
+  menu=亚太东南（吉隆坡）
+  title=oss-ap-southeast-3.aliyuncs.com  亚太东南（吉隆坡）
+  host=oss-ap-southeast-3.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-ap-southeast-5_aliyuncs_com
+  menu=亚太东南（雅加达）
+  title=oss-ap-southeast-5.aliyuncs.com  亚太东南（雅加达）
+  host=oss-ap-southeast-5.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-ap-south-1_aliyuncs_com
+  menu=亚太南部（孟买）
+  title=oss-ap-south-1.aliyuncs.com  亚太南部（孟买）
+  host=oss-ap-south-1.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-ap-northeast-1_aliyuncs_com
+  menu=亚太东北（日本）
+  title=oss-ap-northeast-1.aliyuncs.com  亚太东北（日本）
+  host=oss-ap-northeast-1.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-eu-central-1_aliyuncs_com
+  menu=欧洲中部（法兰克福）
+  title=oss-eu-central-1.aliyuncs.com  欧洲中部（法兰克福）
+  host=oss-eu-central-1.aliyuncs.com
+  rawlog=%Y-%m-%d
+  ++oss-me-east-1_aliyuncs_com
+  menu=中东东部（迪拜）
+  title=oss-me-east-1.aliyuncs.com  中东东部（迪拜）
+  host=oss-me-east-1.aliyuncs.com
+  rawlog=%Y-%m-%d
 
 
