@@ -77,12 +77,9 @@ secrets=/etc/smokeping/smokeping_secrets
 display_name=电信绵阳
 color=ff0000
 
-+liantong
-display_name=联通绵阳
-color=00ff00
 
 +sidong
-display_name=移动绵阳
+display_name=联通绵阳
 color=0000ff
 
 
@@ -106,7 +103,7 @@ menu = Top
 title = Network Latency Grapher
 remark = Welcome to the SmokePing website of xxx Company. \
          Here you will learn all about the latency of our network.
-#slaves=dianxin liantong sidong 
+slaves=sidong 
 
 
 +china
@@ -124,11 +121,6 @@ title=cloud
   menu=香港_谷歌
   title=34.92.120.249  香港_谷歌
   host=34.92.120.249
-  rawlog=%Y-%m-%d
-  ++18_163_115_85
-  menu=香港_亚马逊
-  title=18.163.115.85  香港_亚马逊
-  host=18.163.115.85
   rawlog=%Y-%m-%d
   ++13_76_231_233
   menu=新加坡_微软
@@ -223,11 +215,6 @@ title=Gigsgigscloud
 +HKServerSolution
 menu=HKServerSolution
 title=HKServerSolution
-  ++w84_gubo_org
-  menu=美国_洛杉矶_普通
-  title=w84.gubo.org  美国_洛杉矶_普通
-  host=w84.gubo.org
-  rawlog=%Y-%m-%d
   ++w85_gubo_org
   menu=美国_洛杉矶_CN2_GIA
   title=w85.gubo.org  美国_洛杉矶_CN2_GIA
@@ -335,39 +322,6 @@ title=ZeptoVM
   title=w80.gubo.org  俄罗斯_伯力
   host=w80.gubo.org
   rawlog=%Y-%m-%d
-+cheap
-menu=cheap
-title=cheap
-  ++147_135_44_177
-  menu=ZIBA.HOST_俄勒冈
-  title=147.135.44.177  ZIBA.HOST_俄勒冈
-  host=147.135.44.177
-  rawlog=%Y-%m-%d
-  ++195_128_127_79
-  menu=invs.ru_莫斯科
-  title=195.128.127.79  invs.ru_莫斯科
-  host=195.128.127.79
-  rawlog=%Y-%m-%d
-  ++46_17_40_85
-  menu=justhost_莫斯科
-  title=46.17.40.85  justhost_莫斯科
-  host=46.17.40.85
-  rawlog=%Y-%m-%d
-  ++173_82_220_148
-  menu=cloudcore_洛杉矶
-  title=173.82.220.148  cloudcore_洛杉矶
-  host=173.82.220.148
-  rawlog=%Y-%m-%d
-  ++158_51_96_3
-  menu=XenSpec_洛杉矶
-  title=158.51.96.3  XenSpec_洛杉矶
-  host=158.51.96.3
-  rawlog=%Y-%m-%d
-  ++45_59_126_243
-  menu=Hostodo_拉斯维加斯
-  title=45.59.126.243  Hostodo_拉斯维加斯
-  host=45.59.126.243
-  rawlog=%Y-%m-%d
 +aliyun
 menu=aliyun
 title=aliyun
@@ -376,55 +330,14 @@ title=aliyun
   title=oss-cn-hongkong.aliyuncs.com  香港
   host=oss-cn-hongkong.aliyuncs.com
   rawlog=%Y-%m-%d
-  ++oss-us-west-1_aliyuncs_com
-  menu=美国西部（硅谷）
-  title=oss-us-west-1.aliyuncs.com  美国西部（硅谷）
-  host=oss-us-west-1.aliyuncs.com
-  rawlog=%Y-%m-%d
-  ++oss-us-east-1_aliyuncs_com
-  menu=美国东部（弗吉尼亚）
-  title=oss-us-east-1.aliyuncs.com  美国东部（弗吉尼亚）
-  host=oss-us-east-1.aliyuncs.com
-  rawlog=%Y-%m-%d
   ++oss-ap-southeast-1_aliyuncs_com
   menu=亚太东南（新加坡）
   title=oss-ap-southeast-1.aliyuncs.com  亚太东南（新加坡）
   host=oss-ap-southeast-1.aliyuncs.com
-  rawlog=%Y-%m-%d
-  ++oss-ap-southeast-2_aliyuncs_com
-  menu=亚太东南（悉尼）
-  title=oss-ap-southeast-2.aliyuncs.com  亚太东南（悉尼）
-  host=oss-ap-southeast-2.aliyuncs.com
-  rawlog=%Y-%m-%d
-  ++oss-ap-southeast-3_aliyuncs_com
-  menu=亚太东南（吉隆坡）
-  title=oss-ap-southeast-3.aliyuncs.com  亚太东南（吉隆坡）
-  host=oss-ap-southeast-3.aliyuncs.com
-  rawlog=%Y-%m-%d
-  ++oss-ap-southeast-5_aliyuncs_com
-  menu=亚太东南（雅加达）
-  title=oss-ap-southeast-5.aliyuncs.com  亚太东南（雅加达）
-  host=oss-ap-southeast-5.aliyuncs.com
-  rawlog=%Y-%m-%d
-  ++oss-ap-south-1_aliyuncs_com
-  menu=亚太南部（孟买）
-  title=oss-ap-south-1.aliyuncs.com  亚太南部（孟买）
-  host=oss-ap-south-1.aliyuncs.com
   rawlog=%Y-%m-%d
   ++oss-ap-northeast-1_aliyuncs_com
   menu=亚太东北（日本）
   title=oss-ap-northeast-1.aliyuncs.com  亚太东北（日本）
   host=oss-ap-northeast-1.aliyuncs.com
   rawlog=%Y-%m-%d
-  ++oss-eu-central-1_aliyuncs_com
-  menu=欧洲中部（法兰克福）
-  title=oss-eu-central-1.aliyuncs.com  欧洲中部（法兰克福）
-  host=oss-eu-central-1.aliyuncs.com
-  rawlog=%Y-%m-%d
-  ++oss-me-east-1_aliyuncs_com
-  menu=中东东部（迪拜）
-  title=oss-me-east-1.aliyuncs.com  中东东部（迪拜）
-  host=oss-me-east-1.aliyuncs.com
-  rawlog=%Y-%m-%d
-
 
