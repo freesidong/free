@@ -171,11 +171,6 @@ title=CubeCloud
   title=w70.gubo.org  香港_BGP
   host=w70.gubo.org
   rawlog=%Y-%m-%d
-  ++w68_gubo_org
-  menu=新加坡_BGP
-  title=w68.gubo.org  新加坡_BGP
-  host=w68.gubo.org
-  rawlog=%Y-%m-%d
   ++w67_gubo_org
   menu=美国_洛杉矶_CN2_GIA
   title=w67.gubo.org  美国_洛杉矶_CN2_GIA
@@ -198,11 +193,6 @@ title=DMIT
   menu=美国_洛杉矶_CN2_GIA
   title=dmit-lax-gia.gubo.org  美国_洛杉矶_CN2_GIA
   host=dmit-lax-gia.gubo.org
-  rawlog=%Y-%m-%d
-  ++dmit-lax-lite_gubo_org
-  menu=美国_洛杉矶_普通
-  title=dmit-lax-lite.gubo.org  美国_洛杉矶_普通
-  host=dmit-lax-lite.gubo.org
   rawlog=%Y-%m-%d
 +Gigsgigscloud
 menu=Gigsgigscloud
